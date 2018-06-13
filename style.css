@@ -25,7 +25,7 @@ body {
   font-size: 18px;
   text-align: center;
   color: #777;
-  width: 960px;
+  /*width: 960px;*/
   margin-left: 30px;
   margin-right: 50px;
   overflow: auto;
@@ -50,11 +50,11 @@ header {
   width: 960px;
 }
 
-#section-box {
+#middle-row {
   clear: both;
   /*float: left;*/
   background-color: #ebebeb;
-  width: 495px;
+  width: 960px;
   /*margin-top: 20px;*/
   text-align: center;
   margin: auto;
@@ -63,12 +63,22 @@ header {
   /*margin-left: 219px;*/
 }
 
+#section-box {
+  clear: both;
+  float: left;
+  background-color: #ebebeb;
+  width: 495px;
+  /*margin-top: 20px;*/
+  text-align: center;
+  margin: 0;
+  overflow: auto;
+}
 #article-box {
   background-color: #777;
   color: #ebebeb;
   float: left;
   width: 400px;
-  margin: 20px;
+  margin: 40px;
   text-align: center;
 }
 
@@ -83,19 +93,22 @@ p {
 }
 
 #right-box {
-  float: left;
-  height: 200px;
+  float: right;
+  /* height: 200px; */
   background-color: #ebebeb;
   color: #777;
-  width: 495px;
+  width: 462px;
+  height: 300px;
   text-align: center;
+  /* align-self: center; */
+  /* margin: 0; */
   margin-left: 3px;
-  /*margin-right: 50px;*/
-  margin-bottom: 20px;
+  /* margin-right: 50px; */
+  /* margin-bottom: 20px; */
   /* clear: both; */
-  /*overflow: auto;*/
+  /* overflow: auto; */
+  border-left: 1px solid black;
 }
-
 footer {
   clear: both;
   overflow: auto;
